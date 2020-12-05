@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHmi", "SimpleHmi\SimpleHmi.csproj", "{930769FC-398D-4EB3-AC1A-6D327DC97361}"
 EndProject
@@ -12,6 +12,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHmi.Infrastructure", "SimpleHmi.Infrastructure\SimpleHmi.Infrastructure.csproj", "{B5C07ACA-FD24-49BA-A5E6-F2A426C2F3DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHmi.Plc2Service", "SimpleHmi.Plc2Service\SimpleHmi.Plc2Service.csproj", "{BD126663-92DA-4926-A12E-06DAAA5E9BE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2A8C725-A627-4599-BB93-63D91335CC4C}"
+	ProjectSection(SolutionItems) = preProject
+		Notlar.txt = Notlar.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +47,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30F4E8ED-E7F9-48B8-A007-2696F7DD3F4E}
 	EndGlobalSection
 EndGlobal

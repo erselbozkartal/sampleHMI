@@ -1,0 +1,6 @@
+SimpleHmi - Bootstrapper içerisinde DummyPlcService regiter edilmiþ
+SimpleHmi.PlcService, bu proje içerisinde tanýmlanan DummyPlcService ve S7PlcService ayný interface den türüyor
+Dolayýsýyla Bootstrapper.cs içerisinde register olurken S7PlcService service ne register olunursa onun 
+	içerisindeki connect methodundaki ip ye connect olur
+Örnek olmasý açýsýndan {Binding TankLevel} demiþ aslýnda o interface üzerindeki bir field
+Servis tarafýnda o field a verdiði deðer ön tarafta bind edildiði için anlýk deðiþiyor
